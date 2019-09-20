@@ -1,4 +1,7 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import ReactPaginate from 'react-paginate';
+import axios from 'axios';
 
 export default class App extends React.Component {
     constructor(props) {
@@ -8,10 +11,18 @@ export default class App extends React.Component {
 
     }
 
+    loadData() {
+        axios.get('/data');
+    }
+
+    componentDidMount() {
+
+    }
+
     render() {
         return (
             <h1>Hello World</h1>
         )
     }
-    
+
 }
