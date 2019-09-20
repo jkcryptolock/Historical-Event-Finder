@@ -1,0 +1,37 @@
+{
+  "name": "historicaleventsfinder",
+  "version": "1.0.0",
+  "description": "Single page app to allow users to search for JSON data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "build": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkcryptolock/Historical-Event-Finder.git"
+  },
+  "author": "jkcryptolock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkcryptolock/Historical-Event-Finder/issues"
+  },
+  "homepage": "https://github.com/jkcryptolock/Historical-Event-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "json-server": "^0.15.1",
+    "path": "^0.12.7",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-paginate": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  }
+}
